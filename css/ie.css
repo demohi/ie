@@ -1,8 +1,3 @@
-/*
- * IECSS
- *
- * Released under MIT license. Copyright 2015 KnewCloud, Inc.
- */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -200,32 +195,40 @@ th {
   list-style: none;
   margin: 0;
   padding: 0; }
-  .columns.top {
+  .columns.align-top {
     -webkit-align-items: flex-start;
         -ms-flex-align: start;
             align-items: flex-start; }
-  .columns.bottom {
+  .columns.align-bottom {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
             align-items: flex-end; }
-  .columns.center {
+  .columns.align-center {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  .columns.align-stretch {
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+  .columns.justify-center {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 .column {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
-  .column.top {
+  .column.align-top {
     -webkit-align-self: flex-start;
         -ms-flex-item-align: start;
             align-self: flex-start; }
-  .column.bottom {
+  .column.align-bottom {
     -webkit-align-self: flex-end;
         -ms-flex-item-align: end;
             align-self: flex-end; }
-  .column.center {
+  .column.align-center {
     -webkit-align-self: center;
         -ms-flex-item-align: center;
             align-self: center; }
@@ -257,8 +260,3 @@ th {
     -webkit-flex: 0 0 80%;
         -ms-flex: 0 0 80%;
             flex: 0 0 80%; }
-
-.justify-center {
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center; }

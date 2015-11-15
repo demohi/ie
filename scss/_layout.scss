@@ -16,31 +16,39 @@
   margin: 0;
   padding: 0;
 
-  &.top {
+  &.align-top {
     align-items: flex-start;
   }
 
-  &.bottom {
+  &.align-bottom {
     align-items: flex-end;
   }
 
-  &.center {
+  &.align-center {
     align-items: center;
+  }
+
+  &.align-stretch {
+    align-items: stretch;
+  }
+
+  &.justify-center {
+    justify-content: center;
   }
 }
 
 .column {
   flex: 1;
 
-  &.top {
+  &.align-top {
     align-self: flex-start;
   }
 
-  &.bottom {
+  &.align-bottom {
     align-self: flex-end;
   }
 
-  &.center {
+  &.align-center {
     align-self: center;
   }
 
@@ -71,8 +79,4 @@
   &.four-fifths {
     flex: 0 0 80%;
   }
-}
-
-.justify-center {
-  justify-content: center;
 }

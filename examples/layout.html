@@ -15,10 +15,14 @@
       margin-bottom: 10px;
       color: #fff;
     }
+    .grey{
+      height: 100px;
+      background-color: #E1E6E1;
+    }
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
   <div class="columns">
     <div class="column color one-half">
       1/2
@@ -32,7 +36,7 @@
       auto
     </div>
   </div>
-  <div class="columns top">
+  <div class="columns align-top">
     <div class="column color">
       auto
     </div>
@@ -43,7 +47,18 @@
       auto
     </div>
   </div>
-  <div class="columns bottom">
+  <div class="columns align-center">
+    <div class="column color">
+      auto
+    </div>
+    <div class="column color one-half">
+      Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
+    </div>
+    <div class="column  color">
+      auto
+    </div>
+  </div>
+  <div class="columns align-bottom">
     <div class="column color">
       auto
     </div>
@@ -55,16 +70,16 @@
     </div>
   </div>
   <div class="columns">
-    <div class="column color top">
+    <div class="column color align-top">
       auto
     </div>
     <div class="column color one-third">
       Pellentesque sagittis vel erat ac laoreet. Phasellus ac aliquet enim, eu aliquet sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar porta leo, eu ultricies nunc sollicitudin vitae. Curabitur pulvinar dolor lectus, quis porta turpis ullamcorper nec. Quisque eget varius turpis, quis iaculis nibh.
     </div>
-    <div class="column color center">
+    <div class="column color align-center">
       auto
     </div>
-    <div class="column color bottom">
+    <div class="column color align-bottom">
       auto
     </div>
   </div>
@@ -82,7 +97,14 @@
     <div class="column color">
       auto
     </div>
-  </div>  
+  </div>
+</div>
+<div class="container">
+  <div class="columns align-center  justify-center grey">
+    <div class="column  color one-third ">
+      1/3
+    </div>
+  </div>
 </div>
 </body>
 </html>
